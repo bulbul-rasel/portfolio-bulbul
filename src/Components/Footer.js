@@ -59,7 +59,7 @@ const Footer = () => {
 
             </div>
 
-            <div class="text-center text-dark p-3" >
+            <div class="text-center text-white p-3" >
                 © {year} Copyright:Bulbul Ahammed
             </div>
         </div>

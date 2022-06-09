@@ -5,23 +5,29 @@ import Contact from './Contact';
 import Footer from './Footer';
 
 import Header from './Header';
+import Particle from './Particle';
 import Project from './Project';
 import Skill from './Skill';
 
 const Home = () => {
     return (
-        <div className='bg-light'>
+        <>
+            <Particle></Particle>
+            <div className='text-white'>
 
 
-            <Header></Header>
-            <Banner />
-            <About></About>
-            <Skill></Skill>
-            <Project />
-            <Contact />
-            <Footer />
+                <Header></Header>
+                <Banner />
+                <About></About>
+                <Skill></Skill>
+                <Project />
+                <Contact />
+                <Footer />
 
-        </div>
+            </div>
+        </>
+
+
     );
 };
 
