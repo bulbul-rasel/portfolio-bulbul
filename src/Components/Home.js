@@ -5,6 +5,7 @@ import Contact from './Contact';
 import Footer from './Footer';
 
 import Header from './Header';
+import Liberary from './Liberary';
 import Particle from './Particle';
 import Project from './Project';
 import Skill from './Skill';
@@ -19,6 +20,7 @@ const Home = () => {
                 <Header></Header>
                 <Banner />
                 <About></About>
+                <Liberary />
                 <Skill></Skill>
                 <Project />
                 <Contact />
